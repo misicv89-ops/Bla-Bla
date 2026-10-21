@@ -1,19 +1,13 @@
-# Bla Bla New — sajt
+# Bla Bla New — sajt (GitHub Pages)
 
-Isti responzivni sajt za desktop i mobilni (`index.html`).
+`index.html` je JEDAN samostalan fajl: ceo sajt (desktop + mobilni) i SVE slike (hero, O nama, galerija). Radi i kad ga otvorite direktno sa računara.
 
-## Sadržaj
-- `index.html` — sajt
-- `support.js`, `image-slot.js` — skripte koje sajt koristi
-- `.image-slots.state.json` — fotografije iz hero i „O nama“ sekcije
-- `gallery/` — svih 9 slika iz galerije
-- `.nojekyll` — obavezno, da GitHub Pages ne sakrije fajl sa fotografijama
-- `robots.txt`, `sitemap.xml`
-
-## Objavljivanje na GitHub Pages
+## Objavljivanje
 1. Napravite novi repozitorijum na GitHub-u.
-2. Otpremite SVE fajlove iz ovog foldera u koren repozitorijuma (uključujući skrivene `.nojekyll` i `.image-slots.state.json`).
-3. Settings → Pages → Source: „Deploy from a branch“, grana `main`, folder `/ (root)`.
-4. Sajt će biti na `https://<korisnik>.github.io/<repo>/`.
+2. Otpremite u koren repozitorijuma: index.html, robots.txt, sitemap.xml, .nojekyll.
+3. Settings → Pages → Source: „Deploy from a branch“, grana main, folder / (root).
+4. Sajt će biti na https://<korisnik>.github.io/<repo>/
 
-Pre objave u `sitemap.xml`, `robots.txt` i `index.html` (og:url) zamenite `https://www.example.com/` pravim domenom.
+Folder `slike/` sadrži sve slike posebno (za vašu upotrebu — sajtu nisu potrebne).
+
+Pre objave u sitemap.xml i robots.txt zamenite https://www.example.com/ pravim domenom.
