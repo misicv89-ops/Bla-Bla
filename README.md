@@ -1,13 +1,16 @@
 # Bla Bla New — sajt (GitHub Pages)
 
-`index.html` je JEDAN samostalan fajl: ceo sajt (desktop + mobilni) i SVE slike (hero, O nama, galerija). Radi i kad ga otvorite direktno sa računara.
+Adresa: https://misicv89-ops.github.io/Bla-Bla/
 
-## Objavljivanje
-1. Napravite novi repozitorijum na GitHub-u.
-2. Otpremite u koren repozitorijuma: index.html, robots.txt, sitemap.xml, .nojekyll.
-3. Settings → Pages → Source: „Deploy from a branch“, grana main, folder / (root).
-4. Sajt će biti na https://<korisnik>.github.io/<repo>/
+`index.html` je JEDAN samostalan fajl: ceo sajt (desktop + mobilni), sve slike i video.
 
-Folder `slike/` sadrži sve slike posebno (za vašu upotrebu — sajtu nisu potrebne).
+## Šta otpremiti u koren repozitorijuma `Bla-Bla`
+- index.html
+- og-image.jpg  ← slika koja se prikazuje kad se pošalje link (WhatsApp, Viber, Facebook, Instagram)
+- robots.txt, sitemap.xml
+- .nojekyll
 
-Pre objave u sitemap.xml i robots.txt zamenite https://www.example.com/ pravim domenom.
+Folderi `slike/` i `video/` su kopije za vašu upotrebu (sajtu nisu potrebni).
+
+## Ako se stara slika i dalje prikazuje pri deljenju
+Aplikacije pamte pregled linka. Facebook: otvorite https://developers.facebook.com/tools/debug/ , upišite adresu i kliknite „Scrape Again“. WhatsApp/Viber: pošaljite link sa dodatkom na kraju, npr. https://misicv89-ops.github.io/Bla-Bla/?v=2

@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://misicv89-ops.github.io/Bla-Bla/sitemap.xml
